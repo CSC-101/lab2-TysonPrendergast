@@ -35,8 +35,8 @@ from typing import Optional             # gain access to the Optional[X] type hi
 
 
 def checked_access(L:list[int], idx:int) -> Optional[int]:
-    test = idx >= 0 and idx < len(L)    # What is the value of test on each call?
-    if test:                            # What is this check preventing?
+    test = idx >= 0 and idx < len(L)    # What is the value of test on each call? True on first and second
+    if test:                            # What is this check preventing? negative indexes and indexes that are too big
         return L[idx]
     else:
         return None
