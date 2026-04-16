@@ -1,3 +1,5 @@
+#My email is typrende@calpoly.edu I am Tyson Prendergast
+
 #Task 3
 def smallest(n: float, m: float) -> float:
     if n < m:
