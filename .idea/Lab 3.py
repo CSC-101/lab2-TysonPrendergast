@@ -1,7 +1,7 @@
 #task 1
 
 more = [x + 1 for x in [1,2,3,4]]     # List, in order, the values that x takes at each step. x takes the value of 1 then 2 then 3 then 4
-print("?")                               # What is the value of more at this point?[2,3,4,5] = more
+print()                               # What is the value of more at this point?[2,3,4,5] = more
 
 
 def square(n:int) -> int:
@@ -9,7 +9,7 @@ def square(n:int) -> int:
                                            # the corresponding return value. n starts as 1 and returns 1, then it is 2 adn returns 4, then it is 3 and returns 9, and then it is 4 and returns 16
 
 squares = [square(x) for x in [1,2,3,4]]   # What is the value of squares and how does this relate to the
-print(".")                                    # values recorded above? the value of squares is [1,4,9,16] it displays a list of each value in [1,2,3,4] squared
+print()                                    # values recorded above? the value of squares is [1,4,9,16] it displays a list of each value in [1,2,3,4] squared
 
 
 def check(n:int) -> bool:
@@ -17,7 +17,7 @@ def check(n:int) -> bool:
                                              # the corresponding return value. n =0 returns F, then n=1 returns F, then n=2 returns F, then n=3 and returns T, and then n=4 and returns T
 
 answer = [x for x in range(5) if check(x)]   # What is the value of answer? [3,4]
-print("?")
+print()
 
 
 def inc(m:int) -> int:
@@ -29,7 +29,7 @@ def check(n:int) -> bool:
                                              # the corresponding return value. n=0 returns F, then n=1 returns F, then n=2 returns F, then n=3 and returns T, and then n=4 and returns T
 
 answer = [inc(x) for x in range(5) if check(x)]   # What is the value of answer? [4,5]
-print(""".""")
+print()
 
 
 #task 2
