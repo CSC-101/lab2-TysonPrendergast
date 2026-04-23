@@ -9,7 +9,7 @@ def square(n:int) -> int:
                                            # the corresponding return value. n starts as 1 and returns 1, then it is 2 adn returns 4, then it is 3 and returns 9, and then it is 4 and returns 16
 
 squares = [square(x) for x in [1,2,3,4]]   # What is the value of squares and how does this relate to the
-print(squares)                                    # values recorded above? the value of squares is [1,4,9,16] it displays a list of each value in [1,2,3,4] squared
+print()                                    # values recorded above? the value of squares is [1,4,9,16] it displays a list of each value in [1,2,3,4] squared
 
 
 def check(n:int) -> bool:
